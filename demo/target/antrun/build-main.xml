@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\Users\u\Desktop\git-hub\1st-repo-17-10\demo\target/app.zip">
+    <zipfileset dir="C:\Users\u\Desktop\git-hub\1st-repo-17-10\demo\target/docker"/>
+    <zipfileset includes="demo.jar" dir="C:\Users\u\Desktop\git-hub\1st-repo-17-10\demo\target"/>
+  </zip>
+</target>
+</project>
